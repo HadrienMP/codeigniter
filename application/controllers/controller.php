@@ -26,11 +26,6 @@ class Controller extends CI_Controller {
 	{
 		$this->twiggy->display();
 	}
-	
-	public function realisations()
-	{
-		$this->twiggy->template('realisations')->display();
-	}
 }
 
 /* End of file welcome.php */

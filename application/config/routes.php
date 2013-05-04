@@ -42,7 +42,7 @@ $route['default_controller'] = "controller";
 $route['404_override'] = '';
 
 $route['index'] = "controller";
-$route['realisations'] = "controller/realisations";
+// $route['realisations'] = "controller/realisations";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
