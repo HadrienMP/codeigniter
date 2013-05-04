@@ -5,7 +5,7 @@
  *
  * Twiggy is not just a simple implementation of Twig template engine 
  * for CodeIgniter. It supports themes, layouts, templates for regular
- * apps and also for apps that use HMVC (module support).
+ * frameworks and also for frameworks that use HMVC (module support).
  * 
  * @package   			CodeIgniter
  * @subpackage			Twiggy
