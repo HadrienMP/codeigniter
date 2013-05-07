@@ -1,4 +1,4 @@
 codeigniter
 ===========
 
-Portage de hadrienmp vers code igniter
+Portage de hadrienmp vers codeigniter
