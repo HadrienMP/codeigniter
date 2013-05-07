@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = 'C:\BitNami\wampstack-5.4.14-0/frameworks/codeigniter/system';
+	$system_path = 'c:/BitNami/wampstack-5.4.14-0/frameworks/codeigniter/system';
 
 /*
  *---------------------------------------------------------------
@@ -72,7 +72,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = 'C:\BitNami\wampstack-5.4.14-0/frameworks/codeigniter/application';
+	$application_folder = 'c:/BitNami/wampstack-5.4.14-0/frameworks/codeigniter/application';
 
 /*
  * --------------------------------------------------------------------
