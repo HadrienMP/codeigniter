@@ -1,0 +1,70 @@
+@import variables.sass
+
+body
+  font-family: monospace
+  text-align: center
+  height: 100%
+  font-size: 15px
+  color: $text-color
+  background: $back
+
+#wrapper
+  text-align: left
+  margin: 20px 0 20px
+          
+  #content
+    background: $content-back
+    padding: 10px 0 10px
+    color: $content-text-color
+    text-align: center
+    
+    #content-wrapper
+      display: inline-block
+      text-align: left
+      padding: 0 5px
+      ul
+        margin-bottom: 10px
+          
+      a, a:visited, a:focus
+        color: $content-text-color
+    
+  .comptes, .realisations
+    text-align: center
+    li
+      display: inline-block
+      vertical-align: top
+      a
+        display: block
+        p
+          @media not handheld
+            visibility: hidden
+          word-break: break-all
+      @media not handheld
+        a:hover p
+          visibility: visible
+    
+  .comptes
+    li
+      width: 110px
+      height: 100px
+
+  .realisations
+    li
+      padding: 0 5px
+      
+  footer
+    border-top: 1px solid $border-color
+    padding-top: 20px
+        
+a, a:visited, a:focus
+  text-decoration: none
+  color: $text-color
+  outline: none
+
+a:hover
+  text-decoration: underline
+  
+h3
+  font-weight: bold
+  margin: 10px 0
+  border-bottom: 1px black solid
