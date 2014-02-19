@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = 'c:/BitNami/wampstack-5.4.14-0/frameworks/codeigniter/system';
+	$system_path = dirname(__DIR__).'/system';
 
 /*
  *---------------------------------------------------------------
@@ -67,12 +67,12 @@ if (defined('ENVIRONMENT'))
  * folder then the default one you can set its name here. The folder
  * can also be renamed or relocated anywhere on your server.  If
  * you do, use a full server path. For more info please see the user guide:
- * http://codeigniter.com/user_guide/general/managing_frameworks.html
+ * http://codeigniter.com/user_guide/general/managing_apps.html
  *
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = 'c:/BitNami/wampstack-5.4.14-0/frameworks/codeigniter/application';
+	$application_folder = dirname(__DIR__).'/application';
 
 /*
  * --------------------------------------------------------------------

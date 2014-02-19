@@ -1,4 +1,4 @@
-/* line 3, ../../sass/header.sass */
+/* line 3, ../sass/header.sass */
 header {
   text-align: center;
   background: url(/img/h.png) no-repeat;
@@ -6,47 +6,47 @@ header {
   margin: auto;
   padding: 50px 0 10px;
 }
-/* line 10, ../../sass/header.sass */
+/* line 10, ../sass/header.sass */
 header h1, header h2 {
   margin: 0;
   text-indent: 50px;
 }
-/* line 13, ../../sass/header.sass */
+/* line 13, ../sass/header.sass */
 header h1 {
   font-size: 1.5em;
   font-weight: bold;
   padding-bottom: 5px;
 }
-/* line 17, ../../sass/header.sass */
+/* line 17, ../sass/header.sass */
 header h1:first-letter {
   font-size: 0em;
 }
-/* line 19, ../../sass/header.sass */
+/* line 19, ../sass/header.sass */
 header h2 {
   font-weight: normal;
   font-style: italic;
   font-size: 1.2em;
 }
 
-/* line 24, ../../sass/header.sass */
+/* line 24, ../sass/header.sass */
 nav {
   margin: 20px 0 0;
   border-top: 1px solid white;
   border-bottom: 1px solid #555555;
   background: url(/img/grey_wash_wall.png);
 }
-/* line 29, ../../sass/header.sass */
+/* line 29, ../sass/header.sass */
 nav ul {
   padding: 5px 0;
   text-align: center;
 }
-/* line 32, ../../sass/header.sass */
+/* line 32, ../sass/header.sass */
 nav ul li {
   display: inline-block;
   border-right: 1px solid white;
   padding-right: 7px;
 }
-/* line 36, ../../sass/header.sass */
+/* line 36, ../sass/header.sass */
 nav ul li:last-child {
   border: none;
 }
