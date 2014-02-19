@@ -100,22 +100,21 @@ header h2 {
 /* line 24, ../sass/header.sass */
 nav {
   margin: 20px 0 0;
-  border-top: 1px solid white;
   border-bottom: 1px solid #555555;
   background: url(/img/grey_wash_wall.png);
 }
-/* line 29, ../sass/header.sass */
+/* line 28, ../sass/header.sass */
 nav ul {
   padding: 5px 0;
   text-align: center;
 }
-/* line 32, ../sass/header.sass */
+/* line 31, ../sass/header.sass */
 nav ul li {
   display: inline-block;
-  border-right: 1px solid white;
+  border-right: 1px solid #aaaaaa;
   padding-right: 7px;
 }
-/* line 36, ../sass/header.sass */
+/* line 35, ../sass/header.sass */
 nav ul li:last-child {
   border: none;
 }
@@ -137,9 +136,9 @@ body {
 }
 /* line 15, ../sass/content.sass */
 #wrapper #content {
-  background: white;
+  background: url(/img/light_wool.png);
   padding: 10px 0 10px;
-  color: black;
+  color: #666666;
   text-align: center;
 }
 /* line 21, ../sass/content.sass */
@@ -154,7 +153,7 @@ body {
 }
 /* line 28, ../sass/content.sass */
 #wrapper #content #content-wrapper a, #wrapper #content #content-wrapper a:visited, #wrapper #content #content-wrapper a:focus {
-  color: black;
+  color: #666666;
 }
 /* line 31, ../sass/content.sass */
 #wrapper .comptes, #wrapper .realisations {
@@ -194,29 +193,28 @@ body {
 #wrapper .realisations li {
   padding: 0 5px;
   color: red;
-  max-width: 160px;
 }
-/* line 57, ../sass/content.sass */
+/* line 56, ../sass/content.sass */
 #wrapper footer {
-  border-top: 1px solid white;
+  border-top: 1px solid #aaaaaa;
   padding-top: 20px;
 }
 
-/* line 61, ../sass/content.sass */
+/* line 60, ../sass/content.sass */
 a, a:visited, a:focus {
   text-decoration: none;
   color: white;
   outline: none;
 }
 
-/* line 66, ../sass/content.sass */
+/* line 65, ../sass/content.sass */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 69, ../sass/content.sass */
+/* line 68, ../sass/content.sass */
 h3 {
   font-weight: bold;
   margin: 10px 0;
-  border-bottom: 1px black solid;
+  border-bottom: 1px #aaaaaa solid;
 }

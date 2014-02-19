@@ -31,22 +31,21 @@ header h2 {
 /* line 24, ../sass/header.sass */
 nav {
   margin: 20px 0 0;
-  border-top: 1px solid white;
   border-bottom: 1px solid #555555;
   background: url(/img/grey_wash_wall.png);
 }
-/* line 29, ../sass/header.sass */
+/* line 28, ../sass/header.sass */
 nav ul {
   padding: 5px 0;
   text-align: center;
 }
-/* line 32, ../sass/header.sass */
+/* line 31, ../sass/header.sass */
 nav ul li {
   display: inline-block;
-  border-right: 1px solid white;
+  border-right: 1px solid #aaaaaa;
   padding-right: 7px;
 }
-/* line 36, ../sass/header.sass */
+/* line 35, ../sass/header.sass */
 nav ul li:last-child {
   border: none;
 }
